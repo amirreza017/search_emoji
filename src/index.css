@@ -1,0 +1,44 @@
+@import './Base/Reset.css';
+@import './Base/Typography.css';
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel.eot");
+  src: url("./Fonts/Sahel.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel.woff2") format("woff2"), url("./Fonts/Sahel.woff") format("woff"), url("./Fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-Bold.eot");
+  src: url("./Fonts/Sahel-Bold.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-Bold.woff2") format("woff2"), url("./Fonts/Sahel-Bold.woff") format("woff"), url("./Fonts/Sahel-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-Light.eot");
+  src: url("./Fonts/Sahel-Light.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-Light.woff2") format("woff2"), url("./Fonts/Sahel-Light.woff") format("woff"), url("./Fonts/Sahel-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-SemiBold.eot");
+  src: url("./Fonts/Sahel-SemiBold.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-SemiBold.woff2") format("woff2"), url("./Fonts/Sahel-SemiBold.woff") format("woff"), url("./Fonts/Sahel-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-Black.eot");
+  src: url("./Fonts/Sahel-Black.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-Black.woff2") format("woff2"), url("./Fonts/Sahel-Black.woff") format("woff"), url("./Fonts/Sahel-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+  }

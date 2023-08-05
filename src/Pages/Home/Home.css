@@ -1,0 +1,123 @@
+/* Container Class - Start */
+.container {
+    background-color: #FAF7FF;
+    border: 1px solid #B1AFC1;
+    border-radius: 5px;
+    box-shadow: 0px 4px #B1AFC1, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    padding-bottom: 30px;
+    margin: 100px auto;
+    color: #474554;
+    direction: rtl;
+}
+@media screen and (min-width: 970px) and (max-width: 1210px) {
+    .container {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 970px) {
+    .container {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 690px) and (max-width: 810px) {
+    .container {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 610px) and (max-width: 690px) {
+    .container {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 610px) {
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .container {
+        width: 95%;
+    }
+}
+/* Container Class - End */
+
+/* Header Of Container Class - Start */
+.container_header {
+    text-align: center;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    box-shadow: 0px 4px #B1AFC1;
+    width: fit-content;
+    border-radius: 30px;
+    text-shadow: 0px 7px 6px rgba(71, 69, 84, 0.3137254902);
+}
+@media screen and (max-width: 310px) {
+    .container_header {
+        font-size: 26px;
+    }
+}
+/* Header Of Container Class - End */
+
+/* Second Header Of Container Class - Start */
+.container_header2 {
+    text-align: center;
+    margin: 20px 0;
+}
+@media screen and (min-width: 1820px) {
+    .container_header2 {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1560px) and (max-width: 1820px) {
+    .container_header2 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 510px) and (max-width: 1560px) {
+    .container_header2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .container_header2 {
+        font-size: 12px;
+    }
+}
+/* Second Header Of Container Class - End */
+
+#textvalueid {
+    display: flex;
+    margin: auto;
+    padding: 5px 10px !important;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #B1AFC1;
+    border-radius: 30px;
+    font-family: Sahel;
+    font-size: 16px;
+}
+#textvalueid:focus-visible {
+    outline: none;
+    border: 1px solid #47464e;
+}
+
+.container_result {
+    border:1px solid #47464e;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.para {
+    font-weight: 600;
+}
+
+.border {
+    border: 1px solid #47464e;
+    width: 60%;
+    margin: 5px auto;
+}
