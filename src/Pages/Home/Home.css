@@ -9,6 +9,7 @@
     margin: 100px auto;
     color: #474554;
     direction: rtl;
+
 }
 @media screen and (min-width: 970px) and (max-width: 1210px) {
     .container {
